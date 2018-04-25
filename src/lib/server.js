@@ -18,7 +18,7 @@ const app = http.createServer((req, res) => {
         return undefined;
       }
 
-      if (parsedRequest.method === 'GET' && parsedRequest.url.pathname === '/cowsayPage') {
+      if (parsedRequest.method === 'GET' && parsedRequest.url.pathname === '/cowsay') {
         res.writeHead(200, { 'Content-Type': 'text/html' });
         const cowsayText = cowsay.say({ text: parsedRequest.url.query.text });
         res.write(`<section><h3><a href="/time">Click here for current time</a></h3><pre>${cowsayText}</pre></section>`);
