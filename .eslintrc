@@ -3,6 +3,7 @@
   "parser": "babel-eslint",
   "plugins": ["jest"],
   "rules": {
+    "arraow-body-style": "off",
     "global-require": "off",
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "no-multi-assign": "off",
