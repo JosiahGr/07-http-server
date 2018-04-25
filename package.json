@@ -1,0 +1,38 @@
+{
+  "name": "07-http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "dotenv": "^5.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jest": "^21.15.1",
+    "jest": "^22.4.3",
+    "winston": "^3.0.0-rc5"
+  },
+  "devDependencies": {
+    "cowsay": "^1.3.0",
+    "superagent": "^3.8.2"
+  },
+  "scripts": {
+    "lint": "eslint . ",
+    "test": "eslint . $$ --coverage",
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosiahGr/07-http-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosiahGr/07-http-server/issues"
+  },
+  "homepage": "https://github.com/JosiahGr/07-http-server#readme"
+}
